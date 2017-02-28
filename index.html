@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Media Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Media Gallery</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Image Gallery</a></li>
+                        <li><a href="#section2">Videos Gallery</a></li>
+                        <li><a href="#section3">Toy photography</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">website <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#section41">About us</a></li>
+                                <li><a href="#section42">Newsletter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Sunrise" href="#"> <img class="thumbnail img-responsive" src="Images/image1.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Forest" href="#"><img class="thumbnail img-responsive" src="Images/image2.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Elephant" href="#"><img class="thumbnail img-responsive" src="Images/image3.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="snow" href="#"><img class="thumbnail img-responsive" src="Images/image4.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Tree" href="#"><img class="thumbnail img-responsive" src="Images/image5.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Birds" href="#"><img class="thumbnail img-responsive" src="Images/image6.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="sunset" href="#"><img class="thumbnail img-responsive" src="Images/image7.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Flowers" href="#"><img class="thumbnail img-responsive" src="Images/image8.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Baby" href="#"><img class="thumbnail img-responsive" src="Images/image9.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Clouds" href="#"><img class="thumbnail img-responsive" src="Images/image10.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Mountain" href="#"><img class="thumbnail img-responsive" src="Images/image11.jpg"></a>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-xs-6">
+                <a title="Clouds" href="#"><img class="thumbnail img-responsive" src="Images/image12.jpg"></a>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title">Heading</h3>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="section2" class="container-fluid">
+        <h2> video Gallery </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-9 col-xs-4">
+                    <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal" data-theVideo="videos/video1.mp4">Sunrise video</a>
+                    <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal" data-theVideo="videos/video2.mp4">Forest video </a>
+                    <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal" data-theVideo="videos/video3.mp4">Ocean video </a>
+                    <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal" data-theVideo="videos/video4.mp4">Moon video </a>
+                    <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal" data-theVideo="videos/video5.mp4">Ocean video </a>
+                    <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal" data-theVideo="videos/video6.mp4">Clouds video </a>
+                    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <div>
+                                        <iframe width="100%" height="350" src=""></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="section3" class="container-fluid">
+        <h2> Toy photography </h2>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <a title="toys" href="#" class="thumbnail "><img src="Images/toy1.jpg"></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy2.jpg" /></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy3.jpg" /></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy4.jpg" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy5.jpg" /></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy6.jpg" /></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy7.jpg" /></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy8.jpg" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy9.jpg" /></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy10.jpg" /></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy11.jpg" /></a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#x" class="thumbnail"><img src="Images/toy12.jpg" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹ prev</a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">› next</a>
+        </div>
+    </div>
+    <hr>
+    <div id="section41" class="container-fluid">
+        <div class="row content">
+            <h2> about us </h2>
+            <div class="col-md-4 col-sm-6">
+                <h3> Images </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate libero mauris, vitae malesuada mauris porttitor at. Nam scelerisque enim ac libero mattis pharetra sit amet eget neque. Fusce et efficitur nunc. Quisque maximus dui
+                    ut tellus condimentum, sit amet sollicitudin ex porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse aliquet, arcu quis dignissim vehicula, velit nulla tincidunt neque, ac volutpat
+                    erat urna nec risus. Maecenas imperdiet, est sed pretium mollis, nulla ante rhoncus nisi, ac tincidunt est ipsum non quam. Nunc id leo quis ligula elementum efficitur.</p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <h3> videos </h3>
+                <p>Donec ultricies id arcu eu semper. Sed et nisl non nisl ullamcorper sollicitudin eget ac neque. Curabitur ullamcorper elementum mi, vel tempus urna consectetur vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                    cubilia Curae; Nam faucibus et ligula id dictum. Nunc ante quam, gravida et ornare nec, fermentum eu lectus. Aenean sagittis libero non est pulvinar, quis rutrum lacus vehicula. Vivamus aliquet, ex ac placerat rutrum, tortor magna
+                    scelerisque est, tempor fermentum neque odio non metus. Cras laoreet dolor a massa dapibus semper.</p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <h3> toys </h3>
+                <p>Sed sagittis, arcu luctus sollicitudin placerat, nisi arcu elementum nisl, vel tempus ligula libero eget odio. Integer posuere velit in justo vehicula bibendum. Praesent a venenatis ligula. Duis elementum venenatis urna ut semper. Nullam
+                    tempus libero at laoreet pellentesque. Duis rhoncus at arcu pharetra congue. Donec sed egestas quam. Nam et consectetur nisi.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="section42" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="thumbnail center well well-sm text-center">
+                        <h2>Newsletter</h2>
+
+                        <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+
+                        <form action="" method="post" role="form">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                        <i class="fa fa-envelope"></i>
+                      </span>
+                                <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
+                            </div>
+                            <input type="submit" value="Subscribe" class="btn btn-large btn-primary" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+        <p>&copy2017 <a href="#">www.media-galleryxyz.com</a></p>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            $('.thumbnail').click(function() {
+                $('.modal-body').empty();
+                var title = $(this).parent('a').attr("title");
+                $('.modal-title').html(title);
+                $($(this).parents('div').html()).appendTo('.modal-body');
+                $('#myModal').modal({
+                    show: true
+                });
+            });
+
+
+            autoModal();
+
+            //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+            function autoModal() {
+                var trigger = $("body").find('[data-toggle="modal"]');
+                trigger.click(function() {
+                    var theModal = $(this).data("target"),
+                        videoSRC = $(this).attr("data-theVideo"),
+                        videoSRCauto = videoSRC + "?autoplay=1";
+                    $(theModal + ' iframe').attr('src', videoSRCauto);
+                    $(theModal + ' button.close').click(function() {
+                        $(theModal + ' iframe').attr('src', videoSRC);
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
